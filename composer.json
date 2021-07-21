@@ -1,0 +1,30 @@
+{
+	"name": "lshorz/regular",
+	"type": "package",
+	"description": "Laravel Regular Extend Package",
+	"keywords": ["laravel regular", "regular"],
+	"homepage": "https://github.com/lshorz/regular",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Marven Liao",
+			"email": "lshzhuhai@163.com"
+		}
+	],
+	"require": {
+		"php": ">=7.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Lshorz\\Regular\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Lshorz\\Regular\\RegularServiceProvider"
+			]
+		}
+	}
+}
